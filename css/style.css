@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../image/bg.png");
+}
+
+.main-content {
+    text-align: center;
+    box-shadow: 0 0 24px rgba(0,0,0,0.15);
+    margin: 64px auto;
+    width: 400px;
+}
+
+.top-section {
+    background-color: #8165e4;
+    padding: 40 0 16px;
+    color: #fff;
+}
+
+.top-section img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.top-section .name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.top-section .email .phone {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.middle-section , .bottom-section {
+    background-color: #fff;
+    padding: 16px 0;
+}
+
+.middle-section {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    width: 100%;
+    top: -32px;
+}
+
+.social i {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: #301b69;
+    line-height: 32px;
+    margin: 16px 12px;
+}
+
+.bottom-section {
+    padding: 0 0 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-section span {
+    display: block;
+    width: 100%;
+}
+
+.border {
+    width: 1px;
+    height: 24px;
+    background-color: #d3dae2;
+    margin-top: 4px;
+    margin-left: 12px;
+}
